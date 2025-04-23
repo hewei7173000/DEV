@@ -1,0 +1,90 @@
+{
+    "date": "2025/04/17",
+    "fiscal_year": "2025",
+    "voucher_type": "付",
+    "voucher_id": "",
+    "enter": "GKBB001",
+    "reserve2": "GK-25041700208",
+    "caccid": "SH001",
+    "body": [
+        {
+            "cash_flow": [],
+            "primary_credit_amount": 0,
+            "credit_quantity": 0,
+            "document_date": "",
+            "debit_quantity": 0,
+            "abstract": "国控本部001报销测试凭证推送GK-TYBZ250417000723",
+            "document_id": "",
+            "primary_debit_amount": 93333.34,
+            "natural_credit_currency": 0,
+            "settlement": "",
+            "auxiliary_accounting": {
+                "personnel_id": "",
+                "ccus_id": "",
+                "item_id": "",
+                "supplier_id": "",
+                "item_class": "00",
+                "self_define1": "",
+                "operator": "",
+                "cdept_id": "102"
+            },
+            "exchange_rate2": 1,
+            "account_code": "66022201",
+            "currency": "CNY",
+            "natural_debit_currency": 93333.34
+        },
+        {
+            "cash_flow": [],
+            "primary_credit_amount": 0,
+            "credit_quantity": 0,
+            "document_date": "",
+            "debit_quantity": 0,
+            "abstract": "发票号码：02640236-1，发票金额：98000",
+            "document_id": "",
+            "primary_debit_amount": 4666.66,
+            "natural_credit_currency": 0,
+            "settlement": "",
+            "auxiliary_accounting": {
+                "personnel_id": "",
+                "ccus_id": "",
+                "item_id": "",
+                "supplier_id": "",
+                "item_class": "00",
+                "self_define1": "",
+                "operator": "",
+                "cdept_id": ""
+            },
+            "exchange_rate2": 1,
+            "account_code": "222101011007",
+            "currency": "CNY",
+            "natural_debit_currency": 4666.66
+        },
+        {
+            "cash_flow": [],
+            "primary_credit_amount": 98000,
+            "credit_quantity": 0,
+            "document_date": "",
+            "debit_quantity": 0,
+            "abstract": "国控本部001报销中介机构费",
+            "document_id": "",
+            "primary_debit_amount": 0,
+            "natural_credit_currency": 98000,
+            "settlement": "",
+            "auxiliary_accounting": {
+                "personnel_id": "",
+                "ccus_id": "",
+                "item_id": "",
+                "supplier_id": "",
+                "item_class": "00",
+                "self_define1": "",
+                "operator": "",
+                "cdept_id": ""
+            },
+            "exchange_rate2": 1,
+            "account_code": "10020901",
+            "currency": "CNY",
+            "natural_debit_currency": 0
+        }
+    ],
+    "accounting_period": "04"
+}

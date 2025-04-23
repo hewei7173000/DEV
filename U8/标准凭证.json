@@ -1,0 +1,91 @@
+{
+  "requestId": "guid", 
+  "clientInfo": {
+  "srcAppCode": "GKFK1",
+  "srcintfName": "中兴费控",
+"multiple": "Single"
+  },
+  "targetAppCodes": ["GYHS_U8"],
+  "requestData": {
+      "vouchers":  [
+          {
+                  "vchSrcId": "5f3d7b3c4f6a05431dbc3139322e373d",
+                  "acctgEntCode": "SH001",
+                  "acctgEntName": "国药集团化学试剂有限公司",
+                  "prepByCode": "GKBB001",
+                  "prepByName": "国控本部001",
+                  "pushTime": "2025-04-17 15:14:29",
+                  "vchGenDate": 1744819200000,
+                  "acctgPerYr": "2025",
+                  "acctgPerMth": "04",
+                  "preVchTypeCode": "ZE",
+                  "preVchTypeName": "员报凭证",
+                  "preVchHdrCode": "GK-25041700208",
+                  "vchHdrDesc": "国控本部001报销中介机构费0723",
+                  "expRptCode": "GK-TYBZ250417000723",
+                  "funcCurrCode": "CNY",
+                  "preVchCatCode": "ACTUAL_PAYMENT_VOUCHER",
+                  "preVchCatName": "实付凭证",
+                  "funcCurrTotalAmt": 98000,
+                  "attachQty": 0,
+                  "vchSrcCode": "FSSC",
+                  "vchSrcName": "费控系统",
+                  "ledgerCode": "GKU8ZT02",
+                  "ledgerName": "国控U8账套_国控试剂",
+                  "vchLines": [
+                      {
+                          "vchLineSeqNum": 1,
+                          "acctCode": "66022201",
+                          "acctName": "管理费用/中介机构费/审计费",
+                          "drcrDirFlag": "DEBIT",
+                          "origCurrCode": "CNY",
+                          "origCurrName": "人民币",
+                          "currExchRate": 1,
+                          "origCurrAmt": 93333.34,
+                          "vchLineDescr": "国控本部001报销测试凭证推送GK-TYBZ250417000723",
+                          "funcCurrAmt": 93333.34,
+                          "analyticAcctgItems": [
+                              {
+                                  "analyticAcctgItemTypeCode": "FZDEPT",
+                                  "analyticAcctgItemCode": "102",
+                                  "analyticAcctgItemName": "财务部"
+                              }
+                          ]
+                      },
+                      {
+                          "vchLineSeqNum": 2,
+                          "acctCode": "222101011007",
+                          "acctName": "应交税费/应交增值税/进项税额/9%进项/货物加工、修理修配劳务的进项",
+                          "drcrDirFlag": "DEBIT",
+                          "origCurrCode": "CNY",
+                          "origCurrName": "人民币",
+                          "currExchRate": 1,
+                          "origCurrAmt": 4666.66,
+                          "vchLineDescr": "发票号码：02640236-1，发票金额：98000",
+                          "funcCurrAmt": 4666.66
+                      },
+                      {
+                          "vchLineSeqNum": 3,
+                          "acctCode": "10020901",
+                          "acctName": "银行存款/兴业银行/兴业银行上海虹桥支行4143",
+                          "drcrDirFlag": "CREDIT",
+                          "origCurrCode": "CNY",
+                          "origCurrName": "人民币",
+                          "currExchRate": 1,
+                          "origCurrAmt": 98000,
+                          "vchLineDescr": "国控本部001报销中介机构费",
+                          "funcCurrAmt": 98000,
+                          "analyticAcctgItems": [
+                              {
+                                  "analyticAcctgItemTypeCode": "FZXJL",
+                                  "analyticAcctgItemCode": "07",
+                                  "analyticAcctgItemName": "支付的与其他经营活动有关的现金"
+                              }
+                          ]
+                      }
+                  ]
+              }
+      ]
+
+  }
+}
